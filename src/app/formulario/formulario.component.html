@@ -1,0 +1,15 @@
+<form class="row w-30">
+    <div class="col-lg-3">
+      <input type="text" name="nombre" id="nombre"
+      placeholder="Ingrese tu nombre" class="form-control" [(ngModel)] ="nombreInput">
+    </div>
+    
+    <div class="col-lg-3">
+      <input type="text" name="apellido" id="apellido"
+      placeholder="Ingrese tu apellido" class="form-control" [(ngModel)] ="apellidoInput">
+    </div>
+
+    <div class="col-lg-5 m-auto"> 
+      <button type="submit" class="btn btn-primary" (click)="agregarPersona()">Ingresar</button>
+    </div>
+      </form>
